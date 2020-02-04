@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ConwayGameOfLifeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-04T11:44:14" hostname="recruit-ThinkCentre-M73" time="0.023">
+  <properties/>
+  <testcase name="generate()" classname="ConwayGameOfLifeTest" time="0.023"/>
+  <system-out><![CDATA[Input:
+[+, +, #, +, +, +]
+[+, +, #, #, #, +]
+[+, +, +, +, +, +]
+
+Next Generation:
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

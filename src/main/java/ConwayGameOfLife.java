@@ -5,52 +5,52 @@ public class ConwayGameOfLife {
         for (String[] arr: initGen) {
             System.out.println(Arrays.toString(arr));
         }
-        System.out.println("\n");
         String[][] nextGen = new String[initGen.length][initGen[1].length];
-        for (String[] array: initGen) {
-            for (int a=0;a<array.length;a++) {
-                int liveNeighbours = 0;
+        for (String[] array: initGen){
+            for (int a=0;a<array.length;a++){
+                int aliveNeighbours = 0;
                 try {
-                    if ("#".equals(initGen[Arrays.asList(initGen).indexOf(array) - 1][a + 1])) { liveNeighbours += 1;}//top right neighbour
+                    if ("#".equals(initGen[Arrays.asList(initGen).indexOf(array) - 1][a + 1])) { aliveNeighbours += 1;}//top right neighbour
                 } catch (ArrayIndexOutOfBoundsException ignore) {}
                 try {
-                    if ("#".equals(initGen[Arrays.asList(initGen).indexOf(array) - 1][a])) { liveNeighbours += 1;}//top neighbour
+                    if ("#".equals(initGen[Arrays.asList(initGen).indexOf(array) - 1][a])) { aliveNeighbours += 1;}//top neighbour
                 } catch (ArrayIndexOutOfBoundsException ignore) {}
                 try {
-                    if ("#".equals(initGen[Arrays.asList(initGen).indexOf(array) - 1][a - 1])) { liveNeighbours += 1;}//top left neighbour
+                    if ("#".equals(initGen[Arrays.asList(initGen).indexOf(array) - 1][a - 1])) { aliveNeighbours += 1;}//top left neighbour
                 } catch (ArrayIndexOutOfBoundsException ignore) {}
                 try {
-                    if ("#".equals(array[a - 1])) { liveNeighbours += 1;}//left neighbour
+                    if ("#".equals(array[a - 1])) { aliveNeighbours += 1;}//left neighbour
                 } catch (ArrayIndexOutOfBoundsException ignore) {}
                 try {
-                    if ("#".equals(array[a + 1])) { liveNeighbours += 1;}//right neighbour
+                    if ("#".equals(array[a + 1])) { aliveNeighbours += 1;}//right neighbour
                 } catch (ArrayIndexOutOfBoundsException ignore) {}
                 try {
-                    if ("#".equals(initGen[Arrays.asList(initGen).indexOf(array) + 1][a + 1])) { liveNeighbours += 1;}//bottom right neighbour
+                    if ("#".equals(initGen[Arrays.asList(initGen).indexOf(array) + 1][a + 1])) { aliveNeighbours += 1;}//bottom right neighbour
                 } catch (ArrayIndexOutOfBoundsException ignore) {}
                 try {
-                    if ("#".equals(initGen[Arrays.asList(initGen).indexOf(array) + 1][a])) { liveNeighbours += 1;}//bottom neighbour
+                    if ("#".equals(initGen[Arrays.asList(initGen).indexOf(array) + 1][a])) { aliveNeighbours += 1;}//bottom neighbour
                 } catch (ArrayIndexOutOfBoundsException ignore) {}
                 try {
-                    if ("#".equals(initGen[Arrays.asList(initGen).indexOf(array) + 1][a - 1])) { liveNeighbours += 1;}//bottom left neighbour
+                    if ("#".equals(initGen[Arrays.asList(initGen).indexOf(array) + 1][a - 1])) { aliveNeighbours += 1;}//bottom left neighbour
                 } catch (ArrayIndexOutOfBoundsException ignore) {}
-                if(liveNeighbours<2){
+                if(aliveNeighbours<2){
                     nextGen[Arrays.asList(initGen).indexOf(array)][a] = "+";
-                }else if(array[a].equals("#") && liveNeighbours ==2){
+                }else if(array[a].equals("#") && aliveNeighbours ==2){
                     nextGen[Arrays.asList(initGen).indexOf(array)][a] = "#";
-                }else if(liveNeighbours >3){
+                }else if(aliveNeighbours >3){
                     nextGen[Arrays.asList(initGen).indexOf(array)][a] = "+";
-                }else if(liveNeighbours==3){
+                }else if(aliveNeighbours==3){
                     nextGen[Arrays.asList(initGen).indexOf(array)][a] = "#";
                 }else{
                     nextGen[Arrays.asList(initGen).indexOf(array)][a] = "+";
                 }
             }
         }
-        System.out.println("Next Generation:");
+        System.out.println("\nNext Generation:");
+        StringBuilder nextGeneration = new StringBuilder();
         for (String[] arr: nextGen) {
-            System.out.println(Arrays.toString(arr));
+            nextGeneration.append(Arrays.toString(arr)).append("\n");
         }
-        return "Done";
+        return nextGeneration.toString();
     }
 }
