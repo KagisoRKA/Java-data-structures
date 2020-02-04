@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d799862f-9e50-438d-bd7c-34fe461eba8e" name="Default Changelist" comment="" />
+    <list default="true" id="d799862f-9e50-438d-bd7c-34fe461eba8e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ConwayGameOfLife.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ConwayGameOfLife.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ConwayGameOfLife.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ConwayGameOfLife.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +35,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XAq66GNZCH1kdo1etSRVnt2x5i" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,6 +46,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -75,22 +95,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1580536637791" />
-    <state width="1323" height="149" key="GridCell.Tab.0.bottom" timestamp="1580664778246">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="637" height="265" key="GridCell.Tab.0.bottom" timestamp="1580810862822">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1323" height="149" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580664778246" />
-    <state width="1323" height="149" key="GridCell.Tab.0.center" timestamp="1580664778246">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="637" height="265" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1580810862822" />
+    <state width="637" height="265" key="GridCell.Tab.0.center" timestamp="1580810862822">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1323" height="149" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580664778246" />
-    <state width="1323" height="149" key="GridCell.Tab.0.left" timestamp="1580664778246">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="637" height="265" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1580810862822" />
+    <state width="637" height="265" key="GridCell.Tab.0.left" timestamp="1580810862822">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1323" height="149" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580664778246" />
-    <state width="1323" height="149" key="GridCell.Tab.0.right" timestamp="1580664778246">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="637" height="265" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1580810862822" />
+    <state width="637" height="265" key="GridCell.Tab.0.right" timestamp="1580810862822">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1323" height="149" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580664778246" />
+    <state width="637" height="265" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1580810862822" />
     <state width="1323" height="210" key="GridCell.Tab.1.bottom" timestamp="1580642183783">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -115,5 +139,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="0" width="607" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1580664986496" />
+    <state x="10" y="27" width="1356" height="741" key="new project wizard" timestamp="1580722682679">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="10" y="27" width="1356" height="741" key="new project wizard/0.27.1366.741@0.27.1366.741" timestamp="1580722682679" />
+    <state x="347" y="175" key="run.anything.popup" timestamp="1580714359636">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="347" y="175" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1580714359636" />
   </component>
 </project>

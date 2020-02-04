@@ -3,9 +3,10 @@ public class ConwayGameOfLife {
     public static String generate(String[][] initGen){
         System.out.println("Input:");
         for (String[] arr: initGen) {
-            System.out.print(Arrays.toString(arr));
-            System.out.println("\n");
+            System.out.println(Arrays.toString(arr));
         }
+        System.out.println("\n");
+        String[][] nextGen = new String[initGen.length][initGen[1].length];
         for (String[] array: initGen) {
             for (int a=0;a<array.length;a++) {
                 int liveNeighbours = 0;
@@ -33,22 +34,22 @@ public class ConwayGameOfLife {
                 try {
                     if ("#".equals(initGen[Arrays.asList(initGen).indexOf(array) + 1][a - 1])) { liveNeighbours += 1;}//bottom left neighbour
                 } catch (ArrayIndexOutOfBoundsException ignore) {}
-                String initCell = array[a];
                 if(liveNeighbours<2){
-                    array[a] = "+";
+                    nextGen[Arrays.asList(initGen).indexOf(array)][a] = "+";
                 }else if(array[a].equals("#") && liveNeighbours ==2){
-                    array[a] = "#";
+                    nextGen[Arrays.asList(initGen).indexOf(array)][a] = "#";
                 }else if(liveNeighbours >3){
-                    array[a] = "+";
+                    nextGen[Arrays.asList(initGen).indexOf(array)][a] = "+";
                 }else if(liveNeighbours==3){
-                    array[a] = "#";
+                    nextGen[Arrays.asList(initGen).indexOf(array)][a] = "#";
+                }else{
+                    nextGen[Arrays.asList(initGen).indexOf(array)][a] = "+";
                 }
             }
         }
         System.out.println("Next Generation:");
-        for (String[] arr: initGen) {
-            System.out.print(Arrays.toString(arr));
-            System.out.println("\n");
+        for (String[] arr: nextGen) {
+            System.out.println(Arrays.toString(arr));
         }
         return "Done";
     }
