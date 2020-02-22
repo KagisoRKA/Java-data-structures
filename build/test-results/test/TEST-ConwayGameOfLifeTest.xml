@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ConwayGameOfLifeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-04T11:44:14" hostname="recruit-ThinkCentre-M73" time="0.023">
+<testsuite name="ConwayGameOfLifeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-22T09:32:26" hostname="DESKTOP-RRI56AB" time="0.028">
   <properties/>
-  <testcase name="generate()" classname="ConwayGameOfLifeTest" time="0.023"/>
+  <testcase name="generate()" classname="ConwayGameOfLifeTest" time="0.028"/>
   <system-out><![CDATA[Input:
-[+, +, #, +, +, +]
-[+, +, #, #, #, +]
-[+, +, +, +, +, +]
+[[Ljava.lang.String;@49ecce08, [Ljava.lang.String;@3581f95a, [Ljava.lang.String;@21da936a]
 
 Next Generation:
 ]]></system-out>

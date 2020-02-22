@@ -15,12 +15,14 @@ public class ConwayGameOfLife {
                 try {
                     if ("#".equals(initGen[Arrays.asList(initGen).indexOf(array) - 1][a])) { aliveNeighbours += 1;}//top neighbour
                 } catch (ArrayIndexOutOfBoundsException ignore) {}
-                try {
-                    if ("#".equals(initGen[Arrays.asList(initGen).indexOf(array) - 1][a - 1])) { aliveNeighbours += 1;}//top left neighbour
-                } catch (ArrayIndexOutOfBoundsException ignore) {}
-                try {
-                    if ("#".equals(array[a - 1])) { aliveNeighbours += 1;}//left neighbour
-                } catch (ArrayIndexOutOfBoundsException ignore) {}
+                if(a>0) {
+                    try {
+                        if ("#".equals(initGen[Arrays.asList(initGen).indexOf(array) - 1][a - 1])) { aliveNeighbours += 1; }//top left neighbour
+                    } catch (ArrayIndexOutOfBoundsException ignore) {}
+                    try {
+                        if ("#".equals(array[a - 1])) { aliveNeighbours += 1; }//left neighbour
+                    } catch (ArrayIndexOutOfBoundsException ignore) {}
+                }
                 try {
                     if ("#".equals(array[a + 1])) { aliveNeighbours += 1;}//right neighbour
                 } catch (ArrayIndexOutOfBoundsException ignore) {}
@@ -33,6 +35,7 @@ public class ConwayGameOfLife {
                 try {
                     if ("#".equals(initGen[Arrays.asList(initGen).indexOf(array) + 1][a - 1])) { aliveNeighbours += 1;}//bottom left neighbour
                 } catch (ArrayIndexOutOfBoundsException ignore) {}
+
                 if(aliveNeighbours<2){
                     nextGen[Arrays.asList(initGen).indexOf(array)][a] = "+";
                 }else if(array[a].equals("#") && aliveNeighbours ==2){
